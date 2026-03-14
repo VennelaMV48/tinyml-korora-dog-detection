@@ -4,7 +4,6 @@ An edge AI system designed to detect dogs near **Kororā (Little Blue Penguin) n
 
 This project demonstrates how **low-power edge AI systems can support wildlife conservation** by enabling automated monitoring in remote coastal environments.
 
----
 
 # Overview
 
@@ -18,7 +17,6 @@ Monitoring these locations manually is difficult because:
 
 This project explores how **TinyML and embedded AI systems can automatically detect threats and trigger alerts**.
 
----
 
 # System Architecture
 
@@ -33,8 +31,8 @@ Detection pipeline:
 5. Detection triggers an alert notification.
 
 This pipeline allows **real-time monitoring with low power consumption**.
+![Real_Time_System Architecture](real_time_system_architecture.png)
 
----
 
 # Hardware Components
 
@@ -50,7 +48,7 @@ Main hardware components used:
 
 These components enable the system to perform **AI inference directly on-device**.
 
----
+
 
 # Model Development
 
@@ -72,7 +70,7 @@ Tools used in development:
 - SenseCraft AI for configuration
 - Arduino IDE for firmware integration
 
----
+
 
 # Evaluation
 
@@ -89,7 +87,7 @@ Observations:
 
 The results indicate the system is suitable for **wildlife monitoring applications**.
 
----
+
 
 # Key Features
 
@@ -99,7 +97,7 @@ The results indicate the system is suitable for **wildlife monitoring applicatio
 - automated alert system
 - wildlife protection application
 
----
+
 
 # Project Context
 
@@ -107,7 +105,7 @@ This project was developed as part of the **Master of Artificial Intelligence pr
 
 The goal was to explore how **AI and embedded systems can assist wildlife conservation efforts**.
 
----
+
 
 # Author
 
