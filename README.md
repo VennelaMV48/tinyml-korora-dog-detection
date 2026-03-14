@@ -52,8 +52,6 @@ These components enable the system to perform **AI inference directly on-device*
 
 # Model Development
 
-![Pipeline](pipeline.png)
-
 The AI model was designed for **TinyML deployment**.
 
 Key considerations:
@@ -66,11 +64,13 @@ Key considerations:
 Tools used in development:
 
 - Roboflow for dataset preparation
+  ![Roboflow](roboflow.png)
 - Edge Impulse for TinyML model training
+  ![EdgeImpulse](EI.png)
 - SenseCraft AI for configuration
+  ![SenseCraftAI](SC.png)
 - Arduino IDE for firmware integration
-
-
+  ![Arduino](arduino.png)
 
 # Evaluation
 
