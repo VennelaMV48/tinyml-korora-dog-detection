@@ -63,13 +63,13 @@ Key considerations:
 
 Tools used in development:
 
-- Roboflow for dataset preparation
+- **Roboflow** for dataset preparation
   ![Roboflow](roboflow.png)
-- Edge Impulse for TinyML model training
+- **Edge Impulse** for TinyML model training
   ![EdgeImpulse](EI.png)
-- SenseCraft AI for configuration
+- **SenseCraft AI** for configuration
   ![SenseCraftAI](SC.png)
-- Arduino IDE for firmware integration
+- **Arduino IDE** for firmware integration
   ![Arduino](arduino.png)
 
 # Evaluation
