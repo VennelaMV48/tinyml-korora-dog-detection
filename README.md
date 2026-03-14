@@ -27,11 +27,11 @@ Detection pipeline:
 1. PIR motion sensor detects movement.
 2. ESP32-S3 microcontroller activates the system.
 3. Grove Vision AI V2 processes captured frames.
-4. Embedded object detection model identifies dogs.
+4. The embedded object detection model identifies dogs.
 5. Detection triggers an alert notification.
 
 This pipeline allows **real-time monitoring with low power consumption**.
-![Real_Time_System Architecture](real_time_system_architecture.png)
+
 
 
 # Hardware Components
