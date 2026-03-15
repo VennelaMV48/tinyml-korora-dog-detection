@@ -81,8 +81,6 @@ Dataset preprocessing included:
 
 # Model Development
 
-![model](model.png)
-
 Initial model:
 
 **Dog vs Non-Dog classification model**
@@ -132,7 +130,7 @@ Development tools:
 
 - **Roboflow** — dataset preparation
   
-  ![roboflow](image.png)
+  ![roboflow1](roboflow1.png)
 - **Edge Impulse** — TinyML training
   
   ![EI](EI.png)
