@@ -81,7 +81,7 @@ Dataset preprocessing included:
 
 # Model Development
 
-![Development Pipeline](pipeline.png)
+![model](model.png)
 
 Initial model:
 
@@ -131,12 +131,16 @@ Final inference time:
 Development tools:
 
 - Roboflow — dataset preparation
+  
   ![roboflow](image.png)
 - Edge Impulse — TinyML training
+  
   ![EI](EI.png)
 - SenseCraft AI — model configuration
+
   ![SC](SC.png)
 - Arduino IDE — firmware deployment
+  
   ![arduino](arduino.png)
 
 
