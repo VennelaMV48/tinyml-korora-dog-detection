@@ -130,7 +130,7 @@ Development tools:
 
 - **Roboflow** — dataset preparation
   
-  ![roboflow1](roboflow1.png)
+  ![roboflow](roboflow.png)
 - **Edge Impulse** — TinyML training
   
   ![EI](EI.png)
