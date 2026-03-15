@@ -130,16 +130,16 @@ Final inference time:
 
 Development tools:
 
-- Roboflow — dataset preparation
+- **Roboflow** — dataset preparation
   
   ![roboflow](image.png)
-- Edge Impulse — TinyML training
+- **Edge Impulse** — TinyML training
   
   ![EI](EI.png)
-- SenseCraft AI — model configuration
+- **SenseCraft AI** — model configuration
 
   ![SC](SC.png)
-- Arduino IDE — firmware deployment
+- **Arduino IDE** — firmware deployment
   
   ![arduino](arduino.png)
 
@@ -161,10 +161,14 @@ Detection was reliable within approximately **5 meters**.
 
 # Results
 
-| Model | Accuracy | Inference Time |
-||||
-| Classification Model | ~83.5% | ~356 ms |
-| FOMO Detection Model | ~0.56-0.58 F1 | ~6 ms |
+The project evaluated multiple model architectures to balance accuracy and real-time performance on embedded hardware.
+
+## Model Comparison
+
+| Model | Model Type | Validation Performance | On-Device Inference Time | Notes |
+|------|-------------|------------------------|--------------------------|------|
+| Initial Model | Binary Classification (Dog vs Non-Dog) | ~83.5% validation accuracy, F1 ≈ 0.83 | ~356 ms | Good offline accuracy but too slow for embedded real-time use |
+| Final Model | FOMO Object Detection (MobileNetV2-0.1) | F1 ≈ 0.56-0.58 | Few milliseconds (TinyML inference) | Optimized for embedded deployment and real-time detection |
 
 Key insight:
 
