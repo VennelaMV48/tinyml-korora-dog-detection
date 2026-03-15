@@ -1,6 +1,4 @@
-# TinyML Kororā Dog Detection System
-
-![System Architecture](system_architecture.png)
+# TinyML Dog Detection System To Save Kororā
 
 An edge AI system designed to detect dogs near **Kororā (Little Blue Penguin) nesting areas** using TinyML and embedded computer vision.
 
@@ -133,10 +131,13 @@ Final inference time:
 Development tools:
 
 - Roboflow — dataset preparation
+  ![Validation Results](validation_results.png)
 - Edge Impulse — TinyML training
+  ![Validation Results](validation_results.png)
 - SenseCraft AI — model configuration
+  ![Validation Results](validation_results.png)
 - Arduino IDE — firmware deployment
-
+  ![Validation Results](validation_results.png)
 
 
 # Evaluation
