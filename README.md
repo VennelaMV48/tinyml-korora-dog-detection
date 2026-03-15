@@ -131,13 +131,13 @@ Final inference time:
 Development tools:
 
 - Roboflow — dataset preparation
-  ![Validation Results](validation_results.png)
+  ![roboflow](image.png)
 - Edge Impulse — TinyML training
-  ![Validation Results](validation_results.png)
+  ![EI](EI.png)
 - SenseCraft AI — model configuration
-  ![Validation Results](validation_results.png)
+  ![SC](SC.png)
 - Arduino IDE — firmware deployment
-  ![Validation Results](validation_results.png)
+  ![arduino](arduino.png)
 
 
 # Evaluation
