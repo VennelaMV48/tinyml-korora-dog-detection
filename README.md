@@ -168,6 +168,10 @@ The project evaluated multiple model architectures to balance accuracy and real-
 | Initial Model | Binary Classification (Dog vs Non-Dog) | ~83.5% validation accuracy, F1 ≈ 0.83 | ~356 ms | Good offline accuracy but too slow for embedded real-time use |
 | Final Model | FOMO Object Detection (MobileNetV2-0.1) | F1 ≈ 0.56-0.58 | Few milliseconds (TinyML inference) | Optimized for embedded deployment and real-time detection |
 
+<p align="center">
+  <img src="Result_GitHub.gif" width="350">
+</p>
+
 Key insight:
 
 Real-time embedded systems require **balancing accuracy with inference speed**.
